@@ -1,0 +1,23 @@
+package com.bridgelabz.bootcampprograms.day1;
+import java.util.Scanner
+
+public class Leaprange {
+	public static void main(String args[]) {
+		int year;
+		Scanner sc =new Scanner(System.in);
+		System.out.println("enter the no");
+		year=sc.nextInt();
+		for(int i=2000;i<=2020;i++) {
+			if ((year%400==0)||((year%4==0)&&(year%100!=0))) 
+				System.out.println(" is leap year");
+			
+			else
+				System.out.println(" not leap year");
+				
+		      }
+	
+			
+		}
+	}
+
+

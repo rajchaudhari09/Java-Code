@@ -1,0 +1,10 @@
+package com.bridgelabz.bootcampprograms.day1;
+import java.util.Scanner
+
+public class Leaprange {
+	public static void main(string args[]) {
+		int year;
+		
+	}
+
+}
